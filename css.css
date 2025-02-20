@@ -1,34 +1,22 @@
-body.dark-theme {
-    --first-color-second: hsl(var(--hue-color), 54%, 12%);
-    --title-color: hsl(var(--hue-color), 24%, 95%);
-    --text-color: hsl(var(--hue-color), 8%, 75%);
-    --input-color: hsl(var(--hue-color), 29%, 16%);
-    --body-color: hsl(var(--hue-color), 29%, 12%);
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-  }
-  .nav__dark {
-    display: flex;
-    align-items: center;
-    column-gap: 2rem;
-    position: absolute;
-    left: 3rem;
-    bottom: 4rem;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  transition: all .3s ease;
+  text-decoration: none;
+}
 
+:root {
+  --dark-green: #112a34;
+  --green-color: #004047;
+  --white-color: #fff;
+}
 
-  body {
-    margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--text-color);
-  }
-
-
-  h1, h2, h3 {
-    color: var(--title-color);
-    font-weight: var(--font-semi-bold);
-    font-family: var(--title-font);
-  }
+::selection {
+  background: var(--green-color);
+  color: var(--white-color);
+}
