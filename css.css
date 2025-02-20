@@ -1,75 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-    box-sizing: border-box;
-    transition: all .3s ease;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  transition: all .3s ease;
+  text-decoration: none;
 }
 
 
 :root {
-    --dark-green: #112a34;
-    --green-color: #004047;
-    --white-color: #fff;
+  --dark-green: #112a34;
+  --green-color: #004047;
+  --white-color: #fff;
 }
 
 ::selection {
-    background: var(--green-color);
-    color: var(--white-color);
+  background: var(--green-color);
+  color: var(--white-color);
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 html {
-    font-size: 90%;
+  font-size: 90%;
 }
 
 section {
-    padding: 0 8rem;
-    width: 100%;
+  padding: 0 8rem;
+  width: 100%;
 }
 
 .label {
-    font-size: 1.1rem;
-    color:  #666;
-    text-transform: uppercase;
-    font-weight: 500;
+  font-size: 1.1rem;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .heading {
-    font-size: 3rem;
-    margin-top: 1rem;
+  font-size: 3rem;
+  margin-top: 1rem;
 }
 
 section.home {
-    padding: 1rem;
-    width: 100%;
-    height: 100vh;
+  padding: 1rem;
+  width: 100%;
+  height: 100vh;
 }
 
 .home .home-box {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url("travel-concept-with-plane-maps.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: .5rem;
-    border-radius: .5rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("travel-concept-with-plane-maps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: .5rem;
+  border-radius: .5rem;
 }
 
-.home .home-box nav{
+.home .home-box nav {
   width: 100%;
   height: 65px;
-  background: linear-gradient(rgb(255,255,255,.2),rgb(255,255,255,.2));
+  background: linear-gradient(rgb(255, 255, 255, .2), rgb(255, 255, 255, .2));
   backdrop-filter: blur(1px);
   border-radius: .7rem;
   display: flex;
@@ -90,7 +90,6 @@ section.home {
 .home .home-box nav .logo .bar {
   font-size: 1.35rem;
   color: var(--white-color);
-<<<<<<< HEAD
   cursor: pointer;
   display: none;
 }
@@ -113,7 +112,7 @@ section.home {
   display: flex;
   gap: 3rem;
   list-style: none;
-} 
+}
 
 .home .home-box nav .menu ul li a {
   color: var(--white-color);
@@ -200,7 +199,7 @@ section.home {
 }
 
 .home .home-box .content .search i {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
   margin: 0 .6rem;
 }
 
@@ -223,4 +222,70 @@ section.home {
   color: var(--white-color);
   font-weight: 400;
   cursor: pointer;
-  
+}
+
+.home .home-box .content .search button:hover {
+  background: #02636e;
+}
+
+/* media section starts here */
+@media (max-width: 1020px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 910px) {
+
+  .home .home-box nav {
+    padding: 0 1rem;
+
+  }
+
+  .home .home-box nav .menu ul {
+    gap: 2rem;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  .home .home-box nav .menu {
+    display: none;
+  }
+
+  .home .home-box nav .logo .bar {
+    display: block;
+  }
+
+  .home .home-box nav .menu.active {
+    display: block;
+    position: absolute;
+    left: -1.5rem;
+    top: -1.5rem;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0 0 0/90%);
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+  }
+
+  .home .home-box nav .menu .close {
+    display: block;
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+    cursor: pointer;
+    color: var(--white-color);
+    font-size: 2rem;
+
+  }
+
+
+
+}
+
+
+@media (max-width: 607px)
+/* media section starts here */
