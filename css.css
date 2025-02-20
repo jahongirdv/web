@@ -90,6 +90,7 @@ section.home {
 .home .home-box nav .logo .bar {
   font-size: 1.35rem;
   color: var(--white-color);
+<<<<<<< HEAD
   cursor: pointer;
   display: none;
 }
@@ -223,4 +224,3 @@ section.home {
   font-weight: 400;
   cursor: pointer;
   
-}
