@@ -234,8 +234,9 @@ section.home {
 }
 
 .travel .container .box img {
-  height: 100rem;
+  height: 10rem;
 }
+
 .travel .container .box  h4 {
   font-size: 1.2rem;
   margin: 1rem 0;
@@ -342,6 +343,17 @@ section.home {
   .home .home-box .content {
       padding: 2rem;
   }
+  .travel .container {
+    flex-direction: column;
+    padding: 4rem 0;
+    gap: 4rem;
+  }
+  .travel .container .box img {
+    height: 6rem;
+    
+  }
+
+}
   
 
   
