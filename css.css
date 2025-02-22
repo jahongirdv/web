@@ -37,18 +37,6 @@ section {
   width: 100%;
 }
 
-.label {
-  font-size: 1.1rem;
-  color: #666;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.heading {
-  font-size: 3rem;
-  margin-top: 1rem;
-}
-
 section.home {
   padding: 1rem;
   width: 100%;
@@ -230,6 +218,16 @@ section.home {
 
 /* здесь раздел путешесвтия начнется цсс */
 
+.travel .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 5rem 0;
+}
+/* здесь раздел путешесвтия начнется цсс */
+
 
 /* media section starts here  */
 @media (max-width: 1020px) {
@@ -352,5 +350,3 @@ section.home {
   }
 }
 /* media section starts here  */
-
-
