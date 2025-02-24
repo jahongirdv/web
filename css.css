@@ -37,6 +37,18 @@ section {
   width: 100%;
 }
 
+.label {
+  font-size: 1.1rem;
+  color: #666; 
+  text-transform: uppercase;
+  font-weight: 500; 
+}
+
+.heading {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
 section.home {
   padding: 1rem;
   width: 100%;
@@ -263,10 +275,12 @@ section.home {
 
 .destinations .label {
   font-size: 1.1rem;
-  color: #666;
-  
-
+  color: #666; 
+  text-transform: uppercase;
+  font-weight: 500; 
 }
+
+
 
 /* destination то есть путь или цель путешествия заканчивается здесь */
 /* media section starts here  */
