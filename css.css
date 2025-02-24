@@ -273,13 +273,52 @@ section.home {
   padding-bottom: 4rem; 
 }
 
-.destinations .label {
-  font-size: 1.1rem;
-  color: #666; 
-  text-transform: uppercase;
-  font-weight: 500; 
+.destinations .container {
+  width: 100%;
 }
 
+.destinations .container .container-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.destinations .container .container-box .heading {
+  max-width: 30rem;
+}
+
+.destinations .container .container-box .content {
+  max-width: 35rem;
+}
+
+.destinations .container .container-box .content p {
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.destinations .container .container-box .content a {
+  color: var(--green-color);
+  font-weight: 600;
+}
+
+.destinations .container .container-box .content i{
+  margin-left: 2rem;
+}
+
+.destinations .container .container-box .content a:hover i {
+  margin-left: 1rem;
+}
+
+.gallery {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 
 
 /* destination то есть путь или цель путешествия заканчивается здесь */
