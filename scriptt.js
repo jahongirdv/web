@@ -17,9 +17,7 @@ bars.addEventListener("click", () => {
 
 close.addEventListener("click", () => {
     menu.classList.remove("active")
-
-})
-
+});
 
 function animateContent(selector) {
     selector.forEach((selector) => {

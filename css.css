@@ -430,6 +430,115 @@ section.home {
 }
 
 
+footer {
+  padding:  1rem;
+  width: 100%;
+}
+
+footer .footer {
+  background: var(--dark-green);
+  border-radius: .7rem;
+  padding: 2rem 7rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--green-color);
+  gap: 2rem;
+}
+
+footer .footer .container .detail {
+  max-width: 32rem;
+}
+
+footer .footer .container .detail h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--white-color);
+}
+
+footer .footer .container .detail p {
+  line-height: 1.6rem;
+  color: rgb(255 255 255/80%);
+  margin-bottom: 2rem;
+}
+
+footer .footer .container .detail h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white-color);
+}
+
+footer .footer .container .detail a {
+  color: rgb(255 255 255/80%);
+  font-size: .7rem;
+  border-bottom: 2px solid #00cee4;
+  padding: 1px 0;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+footer .footer .container .detail .social {
+  display: flex;
+  gap: .8rem;
+  margin-top: 1rem;
+}
+
+footer .footer .container .detail .social a {
+  border: none;
+  font-size: 1.3rem;
+  color: var(--white-color);
+}
+
+footer .footer .container h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+  color: var(--white-color);
+}
+
+footer .footer .container li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+footer .footer .container a {
+  color: rgb(255 255 255/80%);
+}
+
+footer .footer .container a:hover {
+  color: var(--white-color);
+}
+
+footer .footer .container span {
+  color: #000;
+  background: #00cee4;
+  font-size: .9rem;
+  padding: .1rem .5rem;
+  border-radius: .3rem;
+  font-weight: 500;
+}
+
+footer .footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: rgb(255 255 255/80%);
+  text-align: center;
+}
+
+footer .footer .copyright a {
+  color: rgb(255 255 255/80%);
+  margin-left: 1rem;
+  text-align: center;
+}
+/* footer section ends here  */
+
 
 @media (max-width: 607px) {
   .home .home-box .content h1 {
