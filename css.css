@@ -39,7 +39,7 @@ section {
 
 .label {
   font-size: 1.1rem;
-  color: #666; 
+  color: floralwhite; 
   text-transform: uppercase;
   font-weight: 500; 
 }
@@ -231,6 +231,7 @@ section.home {
 /* здесь раздел путешествия начнется цсс */
 
 .travel .container {
+  background-image: url();
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -268,6 +269,7 @@ section.home {
 /* destination то есть путь или цель путешествия начинается здесь */
 
 .destinations {
+  background-image: url(sss.jpeg);
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem; 
@@ -287,6 +289,7 @@ section.home {
 
 .destinations .container .container-box .heading {
   max-width: 30rem;
+  color: floralwhite;
 }
 
 .destinations .container .container-box .content {
@@ -295,7 +298,7 @@ section.home {
 
 .destinations .container .container-box .content p {
   line-height: 1.7;
-  color: #666;
+  color: floralwhite;
   margin-bottom: 1rem;
 }
 
