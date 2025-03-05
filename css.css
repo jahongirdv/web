@@ -606,3 +606,24 @@ footer .footer .copyright a {
 }
 
 /* media section ends here  */
+
+/* переключение темы на сайте начинается здесь  */
+body {
+  color: #222;
+  background: #fff;
+}
+
+a {
+  color: #0033cc;
+}
+
+/* Стили "темного" режима */
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+
+body.dark-theme a {
+  color: #809fff;
+}
+/* переключение темы на сайте заканчивается здесь  */

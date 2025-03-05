@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <body>
+        <button class="btn-toggle">Вкл/Выкл</button>
+      </body>
+    <body class="dark-theme || light-theme"></body>
     <section class="home">
         <div class="home-box">
             <nav>
@@ -207,3 +211,13 @@
     <script src="script.js"></script>
 </body>
 </html>
+<script>
+    document.getElementById('themeToggle').addEventListener('click', function() {
+        const currentTheme = document.body.className;
+        if (currentTheme == 'light-theme') {
+            document.body.className = 'dark-theme';
+        } else {
+            document.body.className = 'light-theme';
+        }
+    });
+</script>
