@@ -356,6 +356,61 @@ section.home {
 /* destination то есть путь или цель путешествия заканчивается здесь */
 
 
+/* featured section starts here  */
+
+.featured {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.featured .gallery .box .content {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem 2rem;
+}
+
+.featured .gallery .box .content h2 {
+  font-weight: 500;
+  color: var(--white-color);
+}
+
+.featured .gallery .box .content p {
+  font-size: .9rem;
+  color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured .gallery .box .content .review-and-idr .review {
+  font-size: .9rem;
+  color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr .review i {
+  color: #ffa600;
+}
+
+.featured .gallery .box .content .review-and-idr p {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--white-color);
+}
+
+
+.featured .gallery .box {
+  transform: translate(0, 100px);
+  opacity: 0;
+}
+/* featured section ends here  */
+
+
 /* footer secrion starts here */
 footer {
   padding:  1rem;
@@ -606,24 +661,3 @@ footer .footer .copyright a {
 }
 
 /* media section ends here  */
-
-/* переключение темы на сайте начинается здесь  */
-body {
-  color: #222;
-  background: #fff;
-}
-
-a {
-  color: #0033cc;
-}
-
-/* Стили "темного" режима */
-body.dark-theme {
-  color: #eee;
-  background: #121212;
-}
-
-body.dark-theme a {
-  color: #809fff;
-}
-/* переключение темы на сайте заканчивается здесь  */
