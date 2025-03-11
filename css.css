@@ -58,7 +58,7 @@ section.home {
 .home .home-box {
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("samarkand-uzbekistan-kupol-mechet-ploshchad.png");
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("фото/samarkand-uzbekistan-kupol-mechet-ploshchad.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -232,7 +232,7 @@ section.home {
 /* destination то есть путь или цель путешествия начинается здесь */
 
 .destinations {
-  background-image: url(sss.jpeg);
+  background-image: url(фото/sss.jpeg);
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem; 
@@ -324,7 +324,7 @@ section.home {
 /* featured section starts here  */
 
 .featured {
-  background-image: url("fon.jpg");
+  background-image: url("фото/fon.jpg");
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
