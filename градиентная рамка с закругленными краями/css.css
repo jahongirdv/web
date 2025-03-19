@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #3d3e4a;
+  color: #b6bbc2;
+  display: flex;
+  justify-content: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+h1 {
+  color: #76b3fa;
+  font-size: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #cefa76;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.control-label {
+  background-color: #24252c;
+  background-image: repeating-linear-gradient(
+    180deg,
+    #181a29,
+    #181a29 2px,
+    #202436 2px,
+    #202436 4px
+  );
+  border: 2px solid #575969;
+  border-radius: 4px;
+  display: block;
+  width: 84px;
+  height: 36px;
+  position: relative;
+  transition: border-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.checked {
+  border-color: #76b3fa;
+  box-shadow: 0 0 15px 0 #0763f7, inset 0px 0px 8px 0px #0763f7;
+
+  svg {
+    rect {
+      fill: #76b3fa;
+    }
+  }
+}
+
+input[type="checkbox"]:focus + label {
+  border-color: #76b3fa;
+}
+
+svg {
+  rect {
+    fill: #484a57;
+    transition: fill 300ms ease-in-out;
+  }
+
+  .reference rect {
+    opacity: 0;
+  }
+}
