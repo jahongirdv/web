@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>вход/регистрация</title>
+    <link rel="stylesheet" href="вход.css">
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<body>
+  <div class="cotn_principal">
+<div class="cont_centrar">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+  <!-- LOGIN -->
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+        
+        <h2>ВХОД</h2>  
+  <p>Введите свой логин и пароль</p> 
+  <button class="btn_login" onclick="cambiar_login()">ВХОД</button>
+  </div>
+  </div>
+    <!-- SIGNUP -->
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>Регистрация</h2>
+
+  
+  <p>Если у вас еще нет аккаунта, то зарегистрируйтесь</p>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">Регистрация</button>
+</div>
+  </div>
+       </div>
+
+    
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+        <img src="фото\samarkand-uzbekistan-kupol-mechet-ploshchad.png" alt="" srcset="">
+       </div>
+       
+    </div>
+    <!-- Анимированные LOGIN и SIGNUP после нажатия на кнопку -->
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="фото\samarkand-uzbekistan-kupol-mechet-ploshchad.png" alt="" srcset="">
+       </div>
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>ВХОД</h2>
+ <input type="text" placeholder="Почта" />
+<input type="password" placeholder="Пароль" />
+<button class="btn_login" onclick="cambiar_login()">ВХОД</button>
+  </div>
+  
+   <div class="cont_form_sign_up">
+<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     <h2>Регистрация</h2>
+<input type="text" placeholder="Почта"/>
+<input type="text" placeholder="Пользователь"/>
+<input type="password" placeholder="Пароль" />
+<input type="password" placeholder="Подтвердите пароль" />
+<button class="btn_sign_up" onclick="cambiar_sign_up()">Регистрация</button>
+
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+</div>
+  
+    <script src="вход.js"></script>
+
+</body>
+</body>
+</html>
